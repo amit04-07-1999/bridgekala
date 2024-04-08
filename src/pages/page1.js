@@ -8,11 +8,12 @@ import { VscAdd } from "react-icons/vsc";
 import { GoArrowRight } from "react-icons/go";
 import { GoArrowLeft } from "react-icons/go";
 import "./page1.css"
+import { Link } from "react-router-dom";
 
 const page1 = () => {
   return (
-    
-      <div class="d-flex flex-column justify-content-center w-100 h-100">
+
+    <div class="d-flex flex-column justify-content-center w-100 h-100">
       <div class="flex space-x-4 justify-center p-10">
         <BsExclamationSquare class="size-6 mt-3 text-white z-50" />
         <BsBell class="size-6 mt-3 text-white z-50" />
@@ -50,9 +51,11 @@ const page1 = () => {
               <div class="hover:border-solid hover:border-2 hover:rounded hover:border-pink-400 h-8 hover:text-pink-400">
                 <span class="ml-2">New Requests</span>
               </div>
+                <Link to="/estimate">
               <div class="hover:border-solid hover:border-2 hover:rounded hover:border-pink-400 h-8 hover:text-pink-400">
-                <span class="ml-2">Estimate</span>
+                  <span class="ml-2">Estimate</span>
               </div>
+                </Link>
               <div class="hover:border-solid hover:border-2 hover:rounded hover:border-pink-400 h-8 hover:text-pink-400">
                 <span class="ml-2">Partial Requests</span>
               </div>
@@ -165,7 +168,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -189,7 +192,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -213,7 +216,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -237,7 +240,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -261,7 +264,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -285,7 +288,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -309,7 +312,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -333,7 +336,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -357,7 +360,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -381,7 +384,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -405,7 +408,7 @@ const page1 = () => {
                       Jan 14, 2024
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                    Dandan Dongmei
+                      Dandan Dongmei
                     </th>
                     <th class="h-9 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
                       + 1 234 566 7890
@@ -419,7 +422,7 @@ const page1 = () => {
             </div>
           </main>
           <footer className="flex justify-center items-center space-x-2 py-4 border-2 border-solid border-pink-400 rounded-b-lg bg-black h-10">
-          <GoArrowLeft />
+            <GoArrowLeft />
             <span>1</span>
             <span>2</span>
             <span>3</span>
